@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/wood_plates",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/wood_plates",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/wood_plates",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/wood_plates"
+    }
+  }
+}

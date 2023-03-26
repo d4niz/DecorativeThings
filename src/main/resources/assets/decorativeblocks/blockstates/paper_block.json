@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/paper_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/paper_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/paper_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/paper_block"
+    }
+  }
+}

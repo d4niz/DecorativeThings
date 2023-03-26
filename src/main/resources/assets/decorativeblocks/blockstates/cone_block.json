@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/cone_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/cone_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/cone_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/cone_block"
+    }
+  }
+}

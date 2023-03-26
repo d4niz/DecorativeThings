@@ -1,0 +1,32 @@
+modLoader = "javafml"
+
+loaderVersion = "[44,)"
+license = "Apache 2.0"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+[[mods]]
+modId = "decorativeblocks"
+version = "1.0.0"
+displayName = "DecorativeBlocks"
+
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+#logoFile="DecorativeThings.png"
+#credits="Thanks for this example mod goes to Java"
+
+authors = "d4niz"
+#displayTest="MATCH_VERSION"
+description = '''
+
+'''
+[[dependencies.decorativeblocks]]
+modId = "forge"
+mandatory = true
+versionRange = "[44,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.decorativeblocks]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3]"
+ordering = "NONE"
+side = "BOTH"
