@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -16,24 +17,23 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class ConeBlock extends Block {
+public class DecoBench extends Block {
     public static final DirectionProperty facing = BlockStateProperties.HORIZONTAL_FACING;
 
 
-    public ConeBlock(Properties p_49795_) {
+    public DecoBench(BlockBehaviour.Properties p_49795_) {
         super(p_49795_);
-    }
-
-    @Override
-    public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
-        return Shapes.or(Block.box(7, 0, 7, 9, 14.2, 9),
-                Block.box(5, 0, 5, 11, 1, 11));
     }
 
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext p_49820_) {
         return super.getStateForPlacement(p_49820_).setValue(facing, p_49820_.getHorizontalDirection());
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
+        return Block.box(1,0,1, 15, 14, 15);
     }
 
     @Override
