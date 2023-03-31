@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/decobench",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/decobench",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/decobench"
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/decobench",
+      "y": 90
+    }
+  }
+}

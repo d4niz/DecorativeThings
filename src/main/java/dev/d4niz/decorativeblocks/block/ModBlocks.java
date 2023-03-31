@@ -1,9 +1,7 @@
 package dev.d4niz.decorativeblocks.block;
 
 import dev.d4niz.decorativeblocks.DecorativeBlocks;
-import dev.d4niz.decorativeblocks.block.custom.ConeBlock;
-import dev.d4niz.decorativeblocks.block.custom.PaperBlock;
-import dev.d4niz.decorativeblocks.block.custom.WoodPlates;
+import dev.d4niz.decorativeblocks.block.custom.*;
 import dev.d4niz.decorativeblocks.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -30,6 +28,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CONE_BLOCK = registerBlock("cone_block",
             () -> new ConeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> METAL_TUBES = registerBlock("metal_tubes",
+            () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> DECOBENCH = registerBlock("decobench",
+            () -> new DecoBench(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
 
 
 
