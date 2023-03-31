@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/metal_tubes",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/metal_tubes",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/metal_tubes",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/metal_tubes"
+    }
+  }
+}
