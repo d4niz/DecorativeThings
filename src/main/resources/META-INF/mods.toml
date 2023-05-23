@@ -1,11 +1,11 @@
 modLoader = "javafml"
 
-loaderVersion = "[44,)"
+loaderVersion = "[45,)"
 license = "Apache 2.0"
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
 [[mods]]
 modId = "decorativeblocks"
-version = "1.0.1"
+version = "1.0.3"
 displayName = "DecorativeBlocks"
 
 #updateJSONURL="https://change.me.example.invalid/updates.json"
@@ -21,12 +21,12 @@ description = '''
 [[dependencies.decorativeblocks]]
 modId = "forge"
 mandatory = true
-versionRange = "[44,)"
+versionRange = "[45,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.decorativeblocks]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.3]"
+versionRange = "[1.19.4]"
 ordering = "NONE"
 side = "BOTH"

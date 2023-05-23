@@ -5,7 +5,7 @@ plugins {
 
 
 group = 'dev.d4niz'
-version = '1.0.1-SNAPSHOT'
+version = '1.0.3'
 
 java {
     archivesBaseName = 'DecorativeBlocks'
@@ -13,7 +13,7 @@ java {
 }
 
 minecraft {
-    mappings channel: 'official', version: '1.19.3'
+    mappings channel: 'official', version: '1.19.4'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
     runs {
@@ -83,7 +83,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.3-44.1.23'
+    minecraft 'net.minecraftforge:forge:1.19.4-45.0.64'
 }
 
 jar {

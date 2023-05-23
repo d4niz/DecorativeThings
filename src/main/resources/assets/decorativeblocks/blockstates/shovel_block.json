@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/shovel_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/shovel_block",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/shovel_block"
+
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/shovel_block",
+      "y": 90
+    }
+  }
+}

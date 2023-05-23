@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> METAL_TUBES = registerBlock("metal_tubes",
             () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
 
+    public static final RegistryObject<Block> SHOVEL_BLOCK = registerBlock("shovel_block",
+            () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
     public static final RegistryObject<Block> DECOBENCH = registerBlock("decobench",
             () -> new DecoBench(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
 
