@@ -1,9 +1,11 @@
 {
-  "block.decorativeblocks.paper_block": "Block Papier",
-  "block.decorativeblocks.wood_plates": "Schindel",
-  "block.decorativeblocks.cone_block": "Katze",
+  "block.decorativeblocks.paper_block": "Papierblock",
+  "block.decorativeblocks.wood_plates": "Holzplatten",
+  "block.decorativeblocks.cone_block": "Kegel",
   "block.decorativeblocks.metal_tubes": "Metallrohre",
+  "block.decorativeblocks.rake_block": "Rechenblock",
   "block.decorativeblocks.shovel_block": "Schaufelblock",
-  "block.decorativeblocks.decobench": "Dekorationstafel",
-  "itemGroup.decorativeblocks_tab": "Dekorationsblöcke"
+  "block.decorativeblocks.straw_wheat": "Strohweizenblock",
+  "block.decorativeblocks.decobench": "Dekorative Bank",
+  "itemGroup.decorativeblocks_tab": "Decorative Blocks"
 }

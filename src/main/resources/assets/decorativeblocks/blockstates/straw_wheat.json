@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decorativeblocks:block/straw_wheat",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "decorativeblocks:block/straw_wheat",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "decorativeblocks:block/straw_wheat"
+
+    },
+    "facing=west": {
+      "model": "decorativeblocks:block/straw_wheat",
+      "y": 90
+    }
+  }
+}

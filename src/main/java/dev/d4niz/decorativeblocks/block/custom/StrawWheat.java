@@ -1,6 +1,5 @@
 package dev.d4niz.decorativeblocks.block.custom;
 
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
@@ -8,7 +7,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -17,18 +15,17 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class ShovelBlock extends Block {
+public class StrawWheat extends Block {
     public static final DirectionProperty facing = BlockStateProperties.HORIZONTAL_FACING;
 
 
-    public ShovelBlock(BlockBehaviour.Properties p_49795_) {
+    public StrawWheat(Properties p_49795_) {
         super(p_49795_);
     }
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
-        return Block.box(5,0,5, 11, 5, 11);
-
+        return Block.box(0,0,0, 16, 16, 16);
     }
 
     @Nullable
@@ -57,4 +54,3 @@ public class ShovelBlock extends Block {
         return RenderShape.MODEL;
     }
 }
-

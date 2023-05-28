@@ -20,20 +20,26 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, DecorativeBlocks.MODID);
 
     public static final RegistryObject<Block> PAPER_BLOCK = registerBlock("paper_block",
-            () -> new PaperBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+            () -> new PaperBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .instabreak().noCollission()));
 
     public static final RegistryObject<Block> WOOD_PLATES = registerBlock("wood_plates",
             () -> new WoodPlates(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> CONE_BLOCK = registerBlock("cone_block",
-            () -> new ConeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new ConeBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)));
 
     public static final RegistryObject<Block> METAL_TUBES = registerBlock("metal_tubes",
             () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
 
     public static final RegistryObject<Block> SHOVEL_BLOCK = registerBlock("shovel_block",
-            () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+            () -> new ShovelBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> RAKE_BLOCK = registerBlock("rake_block",
+            () -> new RakeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> STRAW_WHEAT = registerBlock("straw_wheat",
+            () -> new StrawWheat(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).dynamicShape()));
 
     public static final RegistryObject<Block> DECOBENCH = registerBlock("decobench",
             () -> new DecoBench(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));

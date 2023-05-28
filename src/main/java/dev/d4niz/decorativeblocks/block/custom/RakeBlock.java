@@ -8,7 +8,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -17,11 +16,11 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class ShovelBlock extends Block {
+public class RakeBlock extends Block {
     public static final DirectionProperty facing = BlockStateProperties.HORIZONTAL_FACING;
 
 
-    public ShovelBlock(BlockBehaviour.Properties p_49795_) {
+    public RakeBlock(Properties p_49795_) {
         super(p_49795_);
     }
 

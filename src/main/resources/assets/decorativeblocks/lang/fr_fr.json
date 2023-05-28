@@ -1,9 +1,11 @@
 {
-  "block.decorativeblocks.paper_block": "Bloc de papier",
-  "block.decorativeblocks.wood_plates": "Bardeau",
-  "block.decorativeblocks.cone_block": "Chatte",
-  "block.decorativeblocks.metal_tubes": "Tubes métalliques",
-  "block.decorativeblocks.metal_tubes": "Bloc de pelle",
-  "block.decorativeblocks.decobench": "Tableau de décoration",
-  "itemGroup.decorativeblocks_tab": "Blocs de décoration"
+  "block.decorativeblocks.paper_block": "Bloc de Papier",
+  "block.decorativeblocks.wood_plates": "Plaques en Bois",
+  "block.decorativeblocks.cone_block": "Cône",
+  "block.decorativeblocks.metal_tubes": "Tubes en Métal",
+  "block.decorativeblocks.rake_block": "Bloc Râteau",
+  "block.decorativeblocks.shovel_block": "Bloc Pelle",
+  "block.decorativeblocks.straw_wheat": "Bloc de Paille de Blé",
+  "block.decorativeblocks.decobench": "Banc Décoratif",
+  "itemGroup.decorativeblocks_tab": "Decorative Blocks"
 }
