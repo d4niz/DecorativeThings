@@ -19,6 +19,8 @@ public class ModBlocks {
     public static  final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, DecorativeBlocks.MODID);
 
+    // ---------------------------------------- Traffic ---------------------------------------------- //
+
     public static final RegistryObject<Block> PAPER_BLOCK = registerBlock("paper_block",
             () -> new PaperBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .instabreak().noCollission()));
@@ -29,8 +31,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> CONE_BLOCK = registerBlock("cone_block",
             () -> new ConeBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)));
 
+    public static final RegistryObject<Block> TRAFFIC_FENCE = registerBlock("traffic_fence",
+            () -> new TrafficFence(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)));
+
     public static final RegistryObject<Block> METAL_TUBES = registerBlock("metal_tubes",
             () -> new MetalTubes(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> WATER_CUBE = registerBlock("water_cube",
+            () -> new WaterBukket(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> WATER_CUBE_EMPTY = registerBlock("water_cube_empty",
+            () -> new WaterBukket(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    // ---------------------------------------- Nature ---------------------------------------------- //
 
     public static final RegistryObject<Block> SHOVEL_BLOCK = registerBlock("shovel_block",
             () -> new ShovelBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
@@ -40,6 +53,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAW_WHEAT = registerBlock("straw_wheat",
             () -> new StrawWheat(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> WATER_HOLE = registerBlock("water_hole",
+            () -> new WaterHole(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
+
+    public static final RegistryObject<Block> WATER_HOLE_EMPTY = registerBlock("empty_water_hole",
+            () -> new WaterHole(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS).dynamicShape()));
+
+    // ---------------------------------------- Bench ---------------------------------------------- //
 
     public static final RegistryObject<Block> DECOBENCH = registerBlock("decobench",
             () -> new DecoBench(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape()));
